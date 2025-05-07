@@ -1,15 +1,15 @@
 Cách 1:
-imodule https://github.com/VuThanhLong012/stego_tool_h265_metadata/raw/refs/heads/main/stego_tool_h265_metadata.tar
+imodule https://github.com/lequangtuan123/lsb-audio-stego-extract/raw/refs/heads/main/lsb-audio-stego-extract.tar.xz
 
-labtainer -r stego_tool_h265_metadata
+labtainer -r lsb-audio-stego-extract
 
 Cách 2:
-git clone https://github.com/VuThanhLong012/stego_tool_h265_metadata.git
+git clone https://github.com/VuThanhLong012/lsb-audio-stego-extract.git
 
-cd stego_tool_h265_metadata
+cd lsb-audio-stego-extract
 
-tar -xvf stego_tool_h265_metadata.tar
+tar -xvf lsb-audio-stego-extract.tar
 
 Sao chép thư mục vừa giải nén vào đường dẫn labtainer/trunk/labs
 
-labtainer -r stego_tool_h265_metadata
+labtainer -r lsb-audio-stego-extract
